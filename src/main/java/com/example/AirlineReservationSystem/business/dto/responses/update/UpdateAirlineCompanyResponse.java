@@ -4,7 +4,12 @@ import lombok.Data;
 
 import java.util.UUID;
 
+import lombok.*;
 
+@Getter
+@Setter
+@AllArgsConstructor
+@NoArgsConstructor
 public class UpdateAirlineCompanyResponse {
     private UUID id;
 

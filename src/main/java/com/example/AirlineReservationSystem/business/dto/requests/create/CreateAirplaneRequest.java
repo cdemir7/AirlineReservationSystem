@@ -10,7 +10,12 @@ import lombok.Data;
 
 import java.time.LocalDate;
 
-@Data
+import lombok.*;
+
+@Getter
+@Setter
+@AllArgsConstructor
+@NoArgsConstructor
 public class CreateAirplaneRequest {
     @Min(value = 10, message = "Koltuk numarası 10'dan az olamaz.")
     @Max(value = 25, message = "Koltuk numarası 25'den fazla olamaz.")

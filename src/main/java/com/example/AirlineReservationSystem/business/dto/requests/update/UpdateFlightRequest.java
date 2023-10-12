@@ -4,7 +4,12 @@ import lombok.Data;
 
 import java.time.LocalDateTime;
 
-@Data
+import lombok.*;
+
+@Getter
+@Setter
+@AllArgsConstructor
+@NoArgsConstructor
 public class UpdateFlightRequest {
     private String flightNumber;
 

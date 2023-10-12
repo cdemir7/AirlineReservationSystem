@@ -4,7 +4,12 @@ import com.example.AirlineReservationSystem.entities.Flight;
 import com.example.AirlineReservationSystem.entities.Passenger;
 import lombok.Data;
 
-@Data
+import lombok.*;
+
+@Getter
+@Setter
+@AllArgsConstructor
+@NoArgsConstructor
 public class CreateReservationRequest {
     private int flightId;
 

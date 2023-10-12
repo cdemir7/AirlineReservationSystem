@@ -1,8 +1,11 @@
 package com.example.AirlineReservationSystem.business.dto.requests.create;
 
-import lombok.Data;
+import lombok.*;
 
-@Data
+@Getter
+@Setter
+@AllArgsConstructor
+@NoArgsConstructor
 public class CreateAirlineCompanyRequest {
     private String name;
 

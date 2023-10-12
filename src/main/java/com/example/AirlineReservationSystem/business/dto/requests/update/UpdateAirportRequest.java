@@ -2,7 +2,12 @@ package com.example.AirlineReservationSystem.business.dto.requests.update;
 
 import lombok.Data;
 
-@Data
+import lombok.*;
+
+@Getter
+@Setter
+@AllArgsConstructor
+@NoArgsConstructor
 public class UpdateAirportRequest {
     private String code;
 

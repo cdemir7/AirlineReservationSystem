@@ -5,7 +5,12 @@ import lombok.Data;
 
 import java.time.LocalDate;
 
-@Data
+import lombok.*;
+
+@Getter
+@Setter
+@AllArgsConstructor
+@NoArgsConstructor
 public class CreatePassengerRequest {
     private String firstName;
 

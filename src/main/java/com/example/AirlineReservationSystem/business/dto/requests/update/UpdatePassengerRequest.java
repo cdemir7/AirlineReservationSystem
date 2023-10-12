@@ -4,7 +4,12 @@ import com.example.AirlineReservationSystem.entities.enums.Gender;
 import lombok.Data;
 
 import java.time.LocalDate;
-@Data
+import lombok.*;
+
+@Getter
+@Setter
+@AllArgsConstructor
+@NoArgsConstructor
 public class UpdatePassengerRequest {
     private String firstName;
 

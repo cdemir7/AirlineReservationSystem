@@ -3,7 +3,12 @@ package com.example.AirlineReservationSystem.business.dto.responses.create;
 import lombok.Data;
 
 import java.util.UUID;
-@Data
+import lombok.*;
+
+@Getter
+@Setter
+@AllArgsConstructor
+@NoArgsConstructor
 public class CreateAirlineCompanyResponse {
     private UUID id;
 

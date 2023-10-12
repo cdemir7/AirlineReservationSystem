@@ -6,7 +6,12 @@ import lombok.Data;
 import java.time.LocalDate;
 import java.util.UUID;
 
-@Data
+import lombok.*;
+
+@Getter
+@Setter
+@AllArgsConstructor
+@NoArgsConstructor
 public class UpdatePassengerResponse {
     private UUID id;
 
